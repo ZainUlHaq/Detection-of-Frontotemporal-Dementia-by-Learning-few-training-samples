@@ -1,5 +1,5 @@
 # Detecting-Frontotemporal-using-Few-Training-Samples
-#Background 
+# Background 
 Convolutional neural networks (CNNs) achieve the high classification accuracy for detecting
 frontotemporal dementia with a large number of training samples based on magnetic resonance
 imaging (MRI) scans, but they didn‘t achieve good diagnostic accuracy with few training samples.
@@ -10,7 +10,7 @@ through which we resolve the problem of data insufficiency and achieve the class
 as same as with a large number of training samples. We investigate the detection of frontotemporal
 dementia using only a few MRI scans for training.
 
-#Methods: 
+# Methods: 
 We utilized the transfer learning and few-shot learning methodologies to overcome the
 problem of a few available training samples. Firstly, we created the feature extraction model that is
 trained on the large ADNI dataset (a total of 662 samples). This developed model is the convolutional
@@ -19,7 +19,7 @@ transfer the representations learned by the feature extraction model to the mode
 the small FTD dataset (a total of 279 data samples) by following a model perspective-based embedding
 learning methodology of few-shot learning.
 
-#Results: 
+# Results: 
 We developed the CNN models utilizing the transfer learning methods that learn the optimal
 feature representations. The CNN model with the fine-tuning method based on the ADNI dataset
 achieves the Alzheimer's disease classification accuracy of 0.97. Secondly, we achieved the classification
