@@ -1,4 +1,4 @@
-# Detecting Frontotemporal Dementia by Learning Few Training Samples
+# Detection of Frontotemporal Dementia by Learning Few Training Samples
 # Background 
 Convolutional neural networks (CNNs) achieve the high classification accuracy for detecting
 frontotemporal dementia with a large number of training samples based on magnetic resonance
