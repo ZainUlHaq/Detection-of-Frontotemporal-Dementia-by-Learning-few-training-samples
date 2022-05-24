@@ -4,7 +4,7 @@ Convolutional neural networks (CNNs) achieve the high classification accuracy fo
 frontotemporal dementia with a large number of training samples based on magnetic resonance
 imaging (MRI) scans, but they didn‘t achieve good diagnostic accuracy with few training samples.
 One important reason is that in the medical domain, the acquisition of large number of trainng samples
-is quite hard and complicateddue to patients‘ privacy concerns. Recently developed a few-shot learning methodology that
+is quite hard and complicated due to the patients‘ privacy concerns. Recently developed a few-shot learning methodology that
 deals with the data insufficiency problem. Few-shot learning methodology proposes the strategies
 through which we resolve the problem of data insufficiency and achieve the classification performance
 as same as with a large number of training samples. We investigate the detection of frontotemporal
